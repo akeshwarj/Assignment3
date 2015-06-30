@@ -7,7 +7,6 @@ public final class ZDigit {
 			    throw (new IllegalArgumentException("Please enter a ZDigit only (0, A-Z)!"));
 		} else {
 			storeZDigit = storeZDigit + input;
-			System.out.println();
 		}
 	}
 }
