@@ -34,7 +34,7 @@ public final class ZNumber {
 		double sum =0;
 		char[] array = zNum.toCharArray();
 		double l = (double)array.length;
-		for(int i=0; i<l; i++) {
+		for (int i=0; i<l; i++) {
 			double val = (double)(getValue(array[i]));
 			sum = sum + (Math.pow(26,(l-i-1)))*(val);
 		}
@@ -44,7 +44,7 @@ public final class ZNumber {
 	
 	//This function converts the input character to its value and returns it, i.e., A=1, B=2, ... Z=26
 	private int getValue(char zDigit) {
-		if(zDigit == '0') {
+		if (zDigit == '0') {
 			return 0;
 		} else {
 			int ascii = (int)zDigit;
