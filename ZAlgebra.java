@@ -1,7 +1,7 @@
 
 public class ZAlgebra {
-	public static void main(String[] args){
-		//ZDigit zd = new ZDigit('0');
+	public static void main(String[] args) {
+		
 		ZNumber zn1 = new ZNumber('A','B','C','D');
 		zn1.toDecimal();
 		
@@ -11,7 +11,5 @@ public class ZAlgebra {
 		ZNumber zn3 = new ZNumber(new char[]{'P','Q','R','S'});
 		zn3.toDecimal();
 		
-		
-		//ZDigit zn[] = zn3.getDigits();
 	}
 }
