@@ -14,8 +14,10 @@ public final class ZNumber {
 	
 	//Implement a method on ZNumber: public ZDigit[] getDigits(), it would return the zdigits
 	public final ZDigit[] getDigits() {
-		int l = zNum.length();
-		ZDigit[] array = new ZDigit[l];
+		ZDigit[] array = new ZDigit[zNum.length()];
+		for (int i=0; i<zNum.length(); i++) {
+			new ZDigit(zNum.charAt(i));
+		}
 		return array;
 	}
 	
