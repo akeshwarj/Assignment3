@@ -11,5 +11,6 @@ public class ZAlgebra {
 		ZNumber zn3 = new ZNumber(new char[]{'P','Q','R','S'});
 		zn3.toDecimal();
 		
+		//ZDigit[] instance = zn1.getDigits();
 	}
 }
